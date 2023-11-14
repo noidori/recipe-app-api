@@ -8,7 +8,7 @@ from django.urls import (
 
 from rest_framework.routers import DefaultRouter
 
-from app.recipe import views
+from recipe import views
 
 router = DefaultRouter()
 router.register('recipes', views.RecipeViewSet)
